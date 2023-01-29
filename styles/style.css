@@ -44,6 +44,7 @@ ul{
     flex-direction: column;
     width: 300px;
     color: #f9faf8;
+    gap: 2px;
 }
 .items{
     display: flex;
