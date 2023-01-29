@@ -42,13 +42,13 @@ ul{
 .items-text{
     display: flex;
     flex-direction: column;
-    width: 300px;
     color: #f9faf8;
     gap: 2px;
 }
 .items{
     display: flex;
     gap: 32px;
+    width: 70vw;
 }
 .items-text .text1{
     font-weight: 700 ;
@@ -60,12 +60,12 @@ ul{
 }
 
 .imgPlaceholder{
-    width: 200px;
+    width: 63vw;
     background:  rgba(146, 145, 145, 0.849);
 }
 .items-text .signUp{
-    width: 80px;
-    height: 30px;
+    width: 100px;
+    height: 28px;
     font-weight: 600;
     color: #e5e7eb;
     background: #3882f6;
@@ -81,7 +81,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 25vh;
+    height: 26vh;
     justify-content: space-around;
     background: #f9faf8;
     overflow: hidden;
@@ -100,26 +100,27 @@ ul{
     display: flex;
     flex-direction: column;
     width: 130px;
-    height: 150px;
+    height: 200px;
 }
 .content1 .img{
     width: 120px;
-    height: 120px;
+    height: 130px;
     border: 3px solid #3882f6;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .content1 .text{
     color: #1f2937;
     font-size: 14px;
 }
 
-/*content3*/
+/*content2*/
 .content2{
     display: flex;
     justify-content: center;
     align-items: center;
     background: #e5e7eb;
     height: 25vh;
+    overflow: hidden;
 }
 .container2{
     display: flex;
@@ -135,4 +136,45 @@ ul{
 .message{
     font-size: 36px;
     color: #1f2937;
+}
+/*content3*/
+.content3{
+    display: flex;
+    background: #f9faf8;
+    height: 18vh;
+    justify-content: center;
+    align-items: center;    
+}
+.bluearea{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #3882f6;
+    border-radius: 10px;    
+    width: 70vw;
+    height: 9vh;
+}
+.bluearea .texts{
+    display: flex;
+    flex-direction: column;
+    
+}
+.texts .text1{
+    font-size: 24px;
+    font-weight: 400    ;
+   color: #f9faf8;
+}
+.texts .text2{
+     color: #e5e7eb  ;
+     font-size: 16px;
+}
+.bluearea button{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid  #f9faf8 ;
+    background: #3882f6;
+    width: 100px;
+    height: 28px;
+    color:  #f9faf8;
+    border-radius: 10px;
 }
