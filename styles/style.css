@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     background: #1f2937;
-    height: 33vh;
+    height: 25vh;
     overflow: hidden;
 }
 .container{
@@ -111,4 +111,28 @@ ul{
 .content1 .text{
     color: #1f2937;
     font-size: 14px;
+}
+
+/*content3*/
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    height: 25vh;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+.signature{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1f2937;
+    align-self: flex-end;
+}
+.message{
+    font-size: 36px;
+    color: #1f2937;
 }
