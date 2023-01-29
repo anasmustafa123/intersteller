@@ -4,12 +4,13 @@ body{
     margin: 0px;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;;
 }
 .background{
     display: flex;
     justify-content: center;
     background: #1f2937;
-    height: 25vh;
+    height: 27vh;
     overflow: hidden;
 }
 .container{
@@ -41,8 +42,7 @@ ul{
 .items-text{
     display: flex;
     flex-direction: column;
-    width: 450px;
-    gap: 8px;
+    width: 300px;
     color: #f9faf8;
 }
 .items{
@@ -50,7 +50,7 @@ ul{
     gap: 32px;
 }
 .items-text .text1{
-    font-weight: 900 ;
+    font-weight: 700 ;
     font-size: 48px;
 }
 .items-text .text2{
@@ -59,9 +59,8 @@ ul{
 }
 
 .imgPlaceholder{
-    width: 500px;
+    width: 200px;
     background:  rgba(146, 145, 145, 0.849);
-   
 }
 .items-text .signUp{
     width: 80px;
@@ -90,7 +89,7 @@ ul{
 .content1 .text-header{
     color: #1f2337;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
 }
 .content1 .content1-imgs{
     display: flex;
