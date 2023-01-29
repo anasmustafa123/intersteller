@@ -178,3 +178,15 @@ ul{
     color:  #f9faf8;
     border-radius: 10px;
 }
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    height: 4vh;
+}
+.footer .text{
+    font-size: 15px;
+    color:  #f9faf8;
+}
