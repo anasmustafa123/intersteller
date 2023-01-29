@@ -10,13 +10,12 @@ body{
     justify-content: center;
     background: #1f2937;
     height: 33vh;
+    overflow: hidden;
 }
 .container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-width: 0px;
-    min-height: 0px;
 }
 .header{
     display: flex;
@@ -76,3 +75,4 @@ ul{
     border-radius: 5px;
     text-align: center;
 }
+
