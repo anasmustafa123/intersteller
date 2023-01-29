@@ -84,6 +84,7 @@ ul{
     height: 25vh;
     justify-content: space-around;
     background: #f9faf8;
+    overflow: hidden;
 }
 
 .content1 .text-header{
