@@ -1,27 +1,28 @@
 body{
-    height: 100vh;
     width: 100vw;
     margin: 0px;
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    overflow: scroll;
 }
 .background{
     display: flex;
     justify-content: center;
     background: #1f2937;
-    height: 350px;
+    height: 600px;
     overflow: hidden;
 }
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    width: 1100px;
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 8px;
 }
 .header1{
     color: white;
@@ -43,12 +44,13 @@ ul{
     display: flex;
     flex-direction: column;
     color: #f9faf8;
-    gap: 2px;
+    gap: 8px;
 }
 .items{
     display: flex;
     gap: 32px;
-    width: 70vw;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .items-text .text1{
     font-weight: 700 ;
