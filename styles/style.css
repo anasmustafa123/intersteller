@@ -9,13 +9,16 @@ body{
     display: flex;
     justify-content: center;
     background: #1f2937;
-    height: 600px;
+    min-height: 600px;
     overflow: hidden;
+    flex: 1;
+    min-width: 0px;
 }
 .container{
     display: flex;
     flex-direction: column;
     width: 1100px;
+    min-width: 0px;
 }
 .header{
     display: flex;
@@ -87,9 +90,10 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    min-height: 500px;
     background: #f9faf8;
     overflow: hidden;
+    flex: 1;
 }
 
 .content1 .text-header{
@@ -131,8 +135,9 @@ ul{
     justify-content: center;
     align-items: center;
     background: #e5e7eb;
-    height: 500px;
+    min-height: 500px;
     overflow: hidden;
+    flex: 1;
 }
 .container2{
     display: flex;
@@ -153,9 +158,10 @@ ul{
 .content3{
     display: flex;
     background: #f9faf8;
-    height: 400px;
+    min-height: 400px;
     justify-content: center;
-    align-items: center;    
+    align-items: center;  
+    flex: 1;  
 }
 .bluearea{
     display: flex;
@@ -197,7 +203,8 @@ ul{
     justify-content: center;
     align-items: center;
     background: #1f2937;
-    height: 50px;
+    min-height: 50px;
+    flex: 1;
 }
 .footer .text{
     font-size: 15px;
