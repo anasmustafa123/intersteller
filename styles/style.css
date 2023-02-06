@@ -73,14 +73,10 @@ ul{
     background:  rgba(146, 145, 145, 0.849);
 }
 .items-text .signUp{
-    width: 100px;
-    height: 28px;
+
     font-weight: 600;
     color: #e5e7eb;
     background: #3882f6;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
     border-radius: 5px;
     text-align: center;
 }
@@ -187,12 +183,8 @@ ul{
      font-size: 16px;
 }
 .bluearea button{
-    padding: 0px;
-    margin: 0px;
     border: 2px solid  #f9faf8 ;
     background: #3882f6;
-    width: 100px;
-    height: 30px;
     color:  rgb(255, 255, 255);
     border-radius: 6px;
     font-size: 16px;
@@ -209,4 +201,18 @@ ul{
 .footer .text{
     font-size: 15px;
     color:  #f9faf8;
+}
+button{
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    transition: all .06s ;
+}
+.bushButton{
+    transform: scale(1.1);  
+    border-color: rgb(41, 40, 40);
+    box-shadow: 0 0 1rem #c4c2ba;;
 }
